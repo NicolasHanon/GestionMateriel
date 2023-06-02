@@ -7,3 +7,14 @@ C:\Users\nicolashanon\Documents\2EME ANNEE\AP\gestionmateriel\obj\Debug\GestionM
 C:\Users\nicolashanon\Documents\2EME ANNEE\AP\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
 C:\Users\nicolashanon\Documents\2EME ANNEE\AP\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\nicolashanon\Documents\2EME ANNEE\AP\gestionmateriel\obj\Debug\GestionMatériel.pdb
+C:\Users\nicol\Documents\gestionmateriel\bin\Debug\GestionMatériel.exe.config
+C:\Users\nicol\Documents\gestionmateriel\bin\Debug\GestionMatériel.exe
+C:\Users\nicol\Documents\gestionmateriel\bin\Debug\GestionMatériel.pdb
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.AssemblyReference.cache
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Properties.Resources.resources
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.GenerateResource.cache
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.exe
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.pdb
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Connexion.resources

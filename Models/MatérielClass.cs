@@ -11,26 +11,32 @@ namespace GestionMatériel.Models
         private int id;
         private string marque;
         private string nom;
-        private DateTime dateAchat;
 
         /// <summary>
         /// Id du matériel.
         /// </summary>
-        protected int Id { get => id; set => id = value; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Marque du matériel.
         /// </summary>
-        protected string Marque { get => marque; set => marque = value; }
+        public string Marque { get; set; }
 
         /// <summary>
         /// Nom du matériel.
         /// </summary>
-        public string Nom { get => nom; set => nom = value; }
+        public string Nom { get; set; }
 
         /// <summary>
-        /// Date d'achat du matériel.
+        /// Constructeur de la classe MatérielClass.
         /// </summary>
-        public DateTime DateAchat { get => dateAchat; set => dateAchat = value; }
+        /// <param name="id"></param>
+        /// <param name="marque"></param>
+        /// <param name="nom"></param>
+        public MatérielClass(int id, string marque, string nom)
+        {
+            Id = id;
+            Marque = marque;
+            Nom = nom;
+        }
     }
-}

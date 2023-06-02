@@ -11,32 +11,120 @@ namespace GestionMatériel.Models
     /// Date de création : 15/03/2022
     /// Modélise un Nageur de LyonPalme.
     /// </summary>
-    public class NageurModel
+    namespace GestionMatériel.Models
     {
-        /// <summary>
-        /// Id du nageur.
-        /// </summary>
-        public int Id { get; set; }
+        public class NageurModel
+        {
+            private int Id;
+            private string Nom;
+            private string Prénom;
+            private string Mail;
+            private string Téléphone;
+            
+            /// <summary>
+            /// Id du nageur.
+            /// </summary>
+            /// <returns></returns>
+            public int GetId()
+            {
+                return Id;
+            }
+            /// <summary>
+            /// Modifier l'id du nageur.
+            /// </summary>
+            /// <param name="id"></param>
+            public void SetId(int id)
+            {
+                Id = id;
+            }
 
-        /// <summary>
-        /// Nom du nageur.
-        /// </summary>
-        public string Nom { get; set; }
+            /// <summary>
+            /// Nom du nageur.
+            /// </summary>
+            /// <returns></returns>
+            public string GetNom()
+            {
+                return Nom;
+            }
 
-        /// <summary>
-        /// Prénom du nageur.
-        /// </summary>
-        public string Prénom { get; set; }
+            /// <summary>
+            /// Modifier le nom du nageur.
+            /// </summary>
+            /// <param name="nom"></param>
+            public void SetNom(string nom)
+            {
+                Nom = nom;
+            }
+            
+            /// <summary>
+            /// Prénom du nageur.
+            /// </summary>
+            /// <returns></returns>
+            public string GetPrénom()
+            {
+                return Prénom;
+            }
 
-        /// <summary>
-        /// Mail du nageur.
-        /// </summary>
-        public string Mail { get; set; }
+            /// <summary>
+            /// Modifier le prénom du nageur.
+            /// </summary>
+            /// <param name="prénom"></param>
+            public void SetPrénom(string prénom)
+            {
+                Prénom = prénom;
+            }
 
-        /// <summary>
-        /// Téléphone du nageur.
-        /// </summary>
-        public string Téléphone { get; set; }
+            /// <summary>
+            /// Mail du nageur.
+            /// </summary>
+            /// <returns></returns>
+            public string GetMail()
+            {
+                return Mail;
+            }
 
+            /// <summary>
+            /// Modifier le mail du nageur.
+            /// </summary>
+            /// <param name="mail"></param>
+            public void SetMail(string mail)
+            {
+                Mail = mail;
+            }
+
+            /// <summary>
+            /// Téléphone du nageur.
+            /// </summary>
+            /// <returns></returns>
+            public string GetTéléphone()
+            {
+                return Téléphone;
+            }
+
+            /// <summary>
+            /// Modifier le téléphone du nageur.
+            /// </summary>
+            /// <param name="téléphone"></param>
+            public void SetTéléphone(string téléphone)
+            {
+                Téléphone = téléphone;
+            }
+            
+            /// <summary>
+            /// Constructeur de la classe NageurModel.
+            /// </summary>
+            /// <param name="id"></param>
+            /// <param name="nom"></param>
+            /// <param name="prénom"></param>
+            /// <param name="mail"></param>
+            /// <param name="téléphone"></param>
+            public NageurModel(int id, string nom, string prénom, string mail, string téléphone)
+            {
+                Id = id;
+                Nom = nom;
+                Prénom = prénom;
+                Mail = mail;
+                Téléphone = téléphone;
+            }
+        }
     }
-}

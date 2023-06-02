@@ -8,27 +8,38 @@ namespace GestionMatériel.Models
 {
     public class CombinaisonMatérielClass : MatérielClass
     {
-        /// <summary>
-        /// Taille de la combinaison de plongée.
-        /// </summary>
-        public string Taille { get; set; }
+        private string taille;
+        private string saisonCombi;
 
         /// <summary>
-        /// Saison de la combinaison de plongée.
+        /// Taille de la Combinaison.
         /// </summary>
-        public string SaisonCombi { get; set; }
+        public string Taille
+        {
+            get { return taille; }
+            private set { taille = value; }
+        }
+        
+        /// <summary>
+        /// Saison de la Combinaison.
+        /// </summary>
+        public string SaisonCombi
+        {
+            get { return saisonCombi; }
+            private set { saisonCombi = value; }
+        }
 
         /// <summary>
-        /// Retroune l'ID du matériel.
+        /// Obtenir l'id de la combinaison.
         /// </summary>
-        /// <returns>Id</returns>
+        /// <returns>ID</returns>
         public int GetId()
         {
             return Id;
         }
 
         /// <summary>
-        /// Retourne la marque du matériel.
+        /// Obtenir la marque de la combinaison
         /// </summary>
         /// <returns>Marque</returns>
         public string GetMarque()
@@ -37,7 +48,7 @@ namespace GestionMatériel.Models
         }
 
         /// <summary>
-        /// Retourne le nom du matériel.
+        /// Retourne le nom de la combinaison.
         /// </summary>
         /// <returns></returns>
         public string GetNom()
@@ -46,12 +57,18 @@ namespace GestionMatériel.Models
         }
 
         /// <summary>
-        /// Retourne la date d'achat du matériel.
+        /// Constructeur de la classe CombinaisonMatérielClass.
         /// </summary>
-        /// <returns></returns>
-        public DateTime GetDateAchat()
+        /// <param name="id"></param>
+        /// <param name="marque"></param>
+        /// <param name="nom"></param>
+        /// <param name="taille"></param>
+        /// <param name="saisonCombi"></param>
+        public CombinaisonMatérielClass(int id, string marque, string nom, string taille, string saisonCombi)
+            : base(id, marque, nom)
         {
-            return DateAchat;
+            Taille = taille;
+            SaisonCombi = saisonCombi;
         }
     }
 }

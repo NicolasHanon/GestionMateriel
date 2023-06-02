@@ -8,7 +8,7 @@ using System.Configuration;
 using System.IO;
 using CreditSio.Tools;
 
-namespace CreditSio.DataAccess
+namespace GestionMateriel.DataAccess
 {
     /// <summary>
     /// Auteur : B. Chataing.

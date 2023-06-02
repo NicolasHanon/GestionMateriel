@@ -8,18 +8,29 @@ namespace GestionMatériel.Models
 {
     public class MonopalmeMatérielClass : MatérielClass
     {
-        /// <summary>
-        /// Type de Monopalme.
-        /// </summary>
-        public string Type { get; set; }
+        private string type;
+        private string pointure;
 
         /// <summary>
-        /// Pointure du Monopalme.
+        /// Type de la monopalme.
         /// </summary>
-        public string poiture { get; set; }
+        public string Type
+        {
+            get { return type; }
+            private set { type = value; }
+        }
 
         /// <summary>
-        /// Obtenir l'id du monopalme.
+        /// Pointure de la monopalme.
+        /// </summary>
+        public string Pointure
+        {
+            get { return pointure; }
+            private set { pointure = value; }
+        }
+
+        /// <summary>
+        /// Obtenir l'id de la monopalme.
         /// </summary>
         /// <returns>ID</returns>
         public int GetId()
@@ -28,7 +39,7 @@ namespace GestionMatériel.Models
         }
 
         /// <summary>
-        /// Obtenir la marque du monopalme
+        /// Obtenir la marque de la monopalme
         /// </summary>
         /// <returns>Marque</returns>
         public string GetMarque()
@@ -37,12 +48,27 @@ namespace GestionMatériel.Models
         }
 
         /// <summary>
-        /// Retourne le nom du matériel.
+        /// Retourne le nom de la monopalme.
         /// </summary>
         /// <returns></returns>
         public string GetNom()
         {
             return Nom;
+        }
+
+        /// <summary>
+        /// Constructeur de la classe MonopalmeMatérielClass.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="marque"></param>
+        /// <param name="nom"></param>
+        /// <param name="type"></param>
+        /// <param name="pointure"></param>
+        public MonopalmeMatérielClass(int id, string marque, string nom, string type, string pointure)
+            : base(id, marque, nom)
+        {
+            Type = type;
+            Pointure = pointure;
         }
     }
 }
