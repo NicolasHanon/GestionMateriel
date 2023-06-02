@@ -1,4 +1,4 @@
-﻿namespace GestionMatériel
+﻿namespace GestionMatériel.Forms
 {
     partial class Accueil
     {
@@ -30,12 +30,8 @@
         {
             this.lvMatériel = new System.Windows.Forms.ListView();
             this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MARQUE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TAILLE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.SAISONCOMBI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TYPEMONO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.POINTURE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lvMatériel
@@ -43,11 +39,7 @@
             this.lvMatériel.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ID,
             this.MARQUE,
-            this.NOM,
-            this.TAILLE,
-            this.SAISONCOMBI,
-            this.TYPEMONO,
-            this.POINTURE});
+            this.NOM});
             this.lvMatériel.HideSelection = false;
             this.lvMatériel.Location = new System.Drawing.Point(142, 28);
             this.lvMatériel.Name = "lvMatériel";
@@ -60,34 +52,15 @@
             // 
             this.ID.Text = "ID";
             // 
-            // NOM
-            // 
-            this.NOM.DisplayIndex = 1;
-            this.NOM.Text = "NOM";
-            // 
             // MARQUE
             // 
             this.MARQUE.DisplayIndex = 2;
             this.MARQUE.Text = "MARQUE";
             // 
-            // TAILLE
+            // NOM
             // 
-            this.TAILLE.Text = "TAILLE";
-            // 
-            // SAISONCOMBI
-            // 
-            this.SAISONCOMBI.Text = "SAISONCOMBI";
-            this.SAISONCOMBI.Width = 98;
-            // 
-            // TYPEMONO
-            // 
-            this.TYPEMONO.Text = "TYPEMONO";
-            this.TYPEMONO.Width = 89;
-            // 
-            // POINTURE
-            // 
-            this.POINTURE.Text = "POINTURE";
-            this.POINTURE.Width = 106;
+            this.NOM.DisplayIndex = 1;
+            this.NOM.Text = "NOM";
             // 
             // Accueil
             // 
@@ -108,9 +81,5 @@
         private System.Windows.Forms.ColumnHeader ID;
         private System.Windows.Forms.ColumnHeader NOM;
         private System.Windows.Forms.ColumnHeader MARQUE;
-        private System.Windows.Forms.ColumnHeader TAILLE;
-        private System.Windows.Forms.ColumnHeader SAISONCOMBI;
-        private System.Windows.Forms.ColumnHeader TYPEMONO;
-        private System.Windows.Forms.ColumnHeader POINTURE;
     }
 }

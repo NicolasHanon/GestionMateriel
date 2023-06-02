@@ -1,0 +1,35 @@
+
+Log Entry : 19:26:49 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:27:55 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:28:35 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:32:13 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:37:11 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:38:35 vendredi 2 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 19:43:33 vendredi 2 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------

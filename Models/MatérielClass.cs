@@ -39,4 +39,10 @@ namespace GestionMatériel.Models
             Marque = marque;
             Nom = nom;
         }
+
+        public MatérielClass()
+        {
+
+        }
     }
+}

@@ -17,4 +17,5 @@ C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.Gener
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.pdb
-C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Connexion.resources
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.Accueil.resources
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.Connexion.resources

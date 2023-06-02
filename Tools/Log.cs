@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CreditSio.Tools
+namespace GestionMatériel.Tools
 {
     /// <summary>
     /// Auteur : B. Chataing.

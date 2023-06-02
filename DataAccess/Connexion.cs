@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.IO;
-using CreditSio.Tools;
+using GestionMatériel.Tools;
 
-namespace GestionMateriel.DataAccess
+namespace GestionMatériel.DataAccess
 {
     /// <summary>
     /// Auteur : B. Chataing.
@@ -42,7 +42,7 @@ namespace GestionMateriel.DataAccess
             string connectionString;
             try
             {
-                connectionString = ConfigurationManager.ConnectionStrings["sqlserver_creditsio"].ConnectionString;
+                connectionString = ConfigurationManager.ConnectionStrings["sqlserver_GestionMateriel"].ConnectionString;
                 sqlConnection = new SqlConnection(connectionString);
                 sqlConnection.Open();
 

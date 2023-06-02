@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestionMatériel.Models.GestionMatériel.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,11 +14,11 @@ namespace GestionMatériel.Models
     /// </summary>
     public class PretModel
     {
-        private int Id;
-        private DateTime DateEmprunt;
-        private DateTime DateRetour;
-        private NageurModel Nageur;
-        private MatérielClass Matériel;
+        private int id;
+        private DateTime dateEmprunt;
+        private DateTime dateRetour;
+        private NageurModel nageur;
+        private MatérielClass matériel;
 
         /// <summary>
         /// Id du prêt.

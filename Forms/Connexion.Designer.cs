@@ -1,5 +1,5 @@
 ﻿
-namespace GestionMatériel
+namespace GestionMatériel.Forms
 {
     partial class Connexion
     {
