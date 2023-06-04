@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using GestionMatériel.Models;
 using GestionMatériel.DataAccess;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace GestionMatériel.Forms
 {

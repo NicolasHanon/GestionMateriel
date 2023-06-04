@@ -53,7 +53,7 @@ namespace GestionMatériel.Forms
             this.usernameBox.Name = "usernameBox";
             this.usernameBox.Size = new System.Drawing.Size(159, 20);
             this.usernameBox.TabIndex = 1;
-            this.usernameBox.Text = "Username";
+            this.usernameBox.Text = "opif";
             // 
             // passwordBox
             // 
@@ -61,7 +61,7 @@ namespace GestionMatériel.Forms
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.Size = new System.Drawing.Size(159, 20);
             this.passwordBox.TabIndex = 2;
-            this.passwordBox.Text = "Password";
+            this.passwordBox.Text = "password";
             // 
             // label1
             // 
@@ -86,7 +86,7 @@ namespace GestionMatériel.Forms
             this.labelAuth.TabIndex = 3;
             this.labelAuth.Text = "Authentification";
             // 
-            // Form1
+            // Connexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +97,7 @@ namespace GestionMatériel.Forms
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.usernameBox);
             this.Controls.Add(this.boutonConnexion);
-            this.Name = "Form1";
+            this.Name = "Connexion";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

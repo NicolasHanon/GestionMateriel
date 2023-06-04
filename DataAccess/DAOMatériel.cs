@@ -27,10 +27,9 @@ namespace GestionMatériel.DataAccess
             try
             {
                 connection = Connection.getInstance().GetConnection();
-                string query = "SELECT * FROM LP_Matériel";
-                using (SqlCommand commande = new SqlCommand(query, connection))
+                using (SqlCommand sqlCommand = new SqlCommand("ProcedureVoirStock", connection))
                 {
-                    using (SqlDataReader sqlDataReader = commande.ExecuteReader())
+                    using (SqlDataReader sqlDataReader = sqlCommand.ExecuteReader())
                     {
                         if (sqlDataReader.HasRows)
                         {

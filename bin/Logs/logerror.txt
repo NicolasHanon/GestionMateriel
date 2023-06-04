@@ -33,3 +33,33 @@ Log Entry : 19:43:33 vendredi 2 juin 2023
   :
   :DAOMatériel : Affichage du matériel
 -------------------------------
+
+Log Entry : 13:52:56 dimanche 4 juin 2023
+  :
+  :Connection : erreur de connexion au serveur
+-------------------------------
+
+Log Entry : 13:52:56 dimanche 4 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 16:03:29 dimanche 4 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:08:01 dimanche 4 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:44:05 dimanche 4 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:44:18 dimanche 4 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
