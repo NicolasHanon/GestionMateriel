@@ -17,7 +17,7 @@ namespace GestionMatériel.Models
         public string Type
         {
             get { return type; }
-            private set { type = value; }
+            set { type = value; }
         }
 
         /// <summary>
@@ -26,7 +26,7 @@ namespace GestionMatériel.Models
         public string Pointure
         {
             get { return pointure; }
-            private set { pointure = value; }
+            set { pointure = value; }
         }
 
         /// <summary>
@@ -69,6 +69,11 @@ namespace GestionMatériel.Models
         {
             Type = type;
             Pointure = pointure;
+        }
+
+        public MonopalmeMatérielClass()
+        {
+
         }
     }
 }

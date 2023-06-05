@@ -23,18 +23,35 @@ namespace GestionMatériel.Forms
 
         private void Accueil_Load(object sender, EventArgs e)
         {
-            List<MatérielClass> materiels = DAOMatériel.GetAllStock();
+            List<CombinaisonMatérielClass> materiels = DAOMatériel.GetAllStock();
+            List<MonopalmeMatérielClass> materielsmono = DAOMatériel.GetAllStockmono();
+
             //On teste que la liste ne soit pas vide. Si elle est vide, c'est qu'il y a eu une erreur...
             if (materiels != null)
             {
                 //On parcourt la liste de ClientModel
-                foreach (MatérielClass materiel in materiels)
+                foreach (CombinaisonMatérielClass materiel in materiels)
                 {
-                    //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
-                    string[] row = { materiel.Id.ToString(), materiel.Nom, materiel.Marque };
-                    ListViewItem listViewItem = new ListViewItem(row);
-                    //On ajoute la ligne dans la listeview
-                    lvMatériel.Items.Add(listViewItem);
+                    if (materiel.Taille != "")
+                    {
+                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
+                        string[] row = { materiel.Id.ToString(), materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
+                        ListViewItem listViewItem = new ListViewItem(row);
+                        //On ajoute la ligne dans la listeview
+                        lvMatériel.Items.Add(listViewItem);
+                    }
+                }
+            }
+            if (materielsmono != null)
+            {
+                foreach (MonopalmeMatérielClass materielmono in materielsmono)
+                {
+                    if (materielmono.Type != "")
+                    {
+                        string[] row = { materielmono.Id.ToString(), materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
+                        ListViewItem listViewItem = new ListViewItem(row);
+                        lvMatériel.Items.Add(listViewItem);
+                    }
                 }
             }
         }

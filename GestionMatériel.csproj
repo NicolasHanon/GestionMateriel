@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess\Connexion.cs" />
+    <Compile Include="DataAccess\DAOAddCombi.cs" />
     <Compile Include="DataAccess\DAOMatériel.cs" />
     <Compile Include="Forms\Accueil.cs">
       <SubType>Form</SubType>

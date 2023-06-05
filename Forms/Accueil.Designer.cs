@@ -33,8 +33,9 @@
             this.MARQUE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TAILLE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SAISON = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TYPEMONO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.POINTURE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lvMatériel
@@ -43,11 +44,14 @@
             this.ID,
             this.MARQUE,
             this.NOM,
-            this.TAILLE});
+            this.TAILLE,
+            this.SAISON,
+            this.TYPEMONO,
+            this.POINTURE});
             this.lvMatériel.HideSelection = false;
             this.lvMatériel.Location = new System.Drawing.Point(142, 28);
             this.lvMatériel.Name = "lvMatériel";
-            this.lvMatériel.Size = new System.Drawing.Size(559, 107);
+            this.lvMatériel.Size = new System.Drawing.Size(688, 434);
             this.lvMatériel.TabIndex = 0;
             this.lvMatériel.UseCompatibleStateImageBehavior = false;
             this.lvMatériel.View = System.Windows.Forms.View.Details;
@@ -55,40 +59,48 @@
             // ID
             // 
             this.ID.Text = "ID";
+            this.ID.Width = 40;
             // 
             // MARQUE
             // 
             this.MARQUE.DisplayIndex = 2;
             this.MARQUE.Text = "MARQUE";
+            this.MARQUE.Width = 161;
             // 
             // NOM
             // 
             this.NOM.DisplayIndex = 1;
             this.NOM.Text = "NOM";
+            this.NOM.Width = 88;
             // 
             // TAILLE
             // 
             this.TAILLE.Text = "TAILLE";
+            this.TAILLE.Width = 83;
             // 
-            // dataGridView1
+            // SAISON
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(90, 176);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1018, 335);
-            this.dataGridView1.TabIndex = 1;
+            this.SAISON.Text = "SAISON";
+            // 
+            // TYPEMONO
+            // 
+            this.TYPEMONO.Text = "TYPEMONO";
+            this.TYPEMONO.Width = 88;
+            // 
+            // POINTURE
+            // 
+            this.POINTURE.Text = "POINTURE";
+            this.POINTURE.Width = 86;
             // 
             // Accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1168, 572);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lvMatériel);
             this.Name = "Accueil";
             this.Text = "Accueil";
             this.Load += new System.EventHandler(this.Accueil_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -100,6 +112,8 @@
         private System.Windows.Forms.ColumnHeader NOM;
         private System.Windows.Forms.ColumnHeader MARQUE;
         private System.Windows.Forms.ColumnHeader TAILLE;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ColumnHeader SAISON;
+        private System.Windows.Forms.ColumnHeader TYPEMONO;
+        private System.Windows.Forms.ColumnHeader POINTURE;
     }
 }
