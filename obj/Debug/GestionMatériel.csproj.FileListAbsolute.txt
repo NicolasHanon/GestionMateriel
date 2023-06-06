@@ -31,3 +31,4 @@ C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.Generate
 C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
 C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.pdb
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormAddCombi.resources

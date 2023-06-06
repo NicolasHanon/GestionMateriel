@@ -62,6 +62,12 @@
     <Compile Include="Forms\Connexion.Designer.cs">
       <DependentUpon>Connexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormAddCombi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddCombi.Designer.cs">
+      <DependentUpon>FormAddCombi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\CombinaisonMatérielClass.cs" />
     <Compile Include="Models\MatérielClass.cs" />
     <Compile Include="Models\MonopalmeMatérielClass.cs" />
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Connexion.resx">
       <DependentUpon>Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddCombi.resx">
+      <DependentUpon>FormAddCombi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

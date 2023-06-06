@@ -35,7 +35,7 @@ namespace GestionMatériel.Forms
                     if (materiel.Taille != "")
                     {
                         //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
-                        string[] row = { materiel.Id.ToString(), materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
+                        string[] row = { materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
                         ListViewItem listViewItem = new ListViewItem(row);
                         //On ajoute la ligne dans la listeview
                         lvMatériel.Items.Add(listViewItem);
@@ -48,7 +48,7 @@ namespace GestionMatériel.Forms
                 {
                     if (materielmono.Type != "")
                     {
-                        string[] row = { materielmono.Id.ToString(), materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
+                        string[] row = { materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
                         ListViewItem listViewItem = new ListViewItem(row);
                         lvMatériel.Items.Add(listViewItem);
                     }
@@ -56,19 +56,17 @@ namespace GestionMatériel.Forms
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnAddMono_Click(object sender, EventArgs e)
         {
+            FormAddCombi FAddCombi = new FormAddCombi();
+            FAddCombi.Show();
 
         }
 
-        private void btnVoirPret_Click(object sender, EventArgs e)
+        private void btnAddCombi_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            FormAddCombi FAddCombi = new FormAddCombi();
+            FAddCombi.Show();
         }
     }
 }

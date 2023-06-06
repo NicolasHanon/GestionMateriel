@@ -38,7 +38,6 @@ namespace GestionMatériel.DataAccess
                             {
                                 CombinaisonMatérielClass materiel = new CombinaisonMatérielClass();
                                 MonopalmeMatérielClass materielmono = new MonopalmeMatérielClass();
-                                materiel.Id = (int)sqlDataReader["Id"];
                                 materiel.Marque = (string)sqlDataReader["Marque"];
                                 materiel.Nom = (string)sqlDataReader["Nom"];
                                 materiel.Taille = sqlDataReader["Taille"] == DBNull.Value ? "" : (string)sqlDataReader["Taille"];
@@ -90,7 +89,6 @@ namespace GestionMatériel.DataAccess
                             while (sqlDataReader.Read())
                             {
                                 MonopalmeMatérielClass materielmono = new MonopalmeMatérielClass(); 
-                                materielmono.Id = (int)sqlDataReader["Id"];
                                 materielmono.Marque = (string)sqlDataReader["Marque"];
                                 materielmono.Nom = (string)sqlDataReader["Nom"];
                                 materielmono.Type = sqlDataReader["TypeMono"] == DBNull.Value ? "" : (string)sqlDataReader["TypeMono"];
