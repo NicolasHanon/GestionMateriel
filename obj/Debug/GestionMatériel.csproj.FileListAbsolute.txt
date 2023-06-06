@@ -19,3 +19,15 @@ C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.pdb
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.Accueil.resources
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.Connexion.resources
+C:\Users\yasse\Videos\gestionmateriel\bin\Debug\GestionMatériel.exe.config
+C:\Users\yasse\Videos\gestionmateriel\bin\Debug\GestionMatériel.exe
+C:\Users\yasse\Videos\gestionmateriel\bin\Debug\GestionMatériel.pdb
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.AssemblyReference.cache
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.SuggestedBindingRedirects.cache
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.Forms.Accueil.resources
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.Forms.Connexion.resources
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.Properties.Resources.resources
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.GenerateResource.cache
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.exe
+C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.pdb
