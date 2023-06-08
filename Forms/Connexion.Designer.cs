@@ -40,6 +40,7 @@ namespace GestionMatériel.Forms
             // boutonConnexion
             // 
             this.boutonConnexion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.boutonConnexion.FlatAppearance.BorderSize = 0;
             this.boutonConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boutonConnexion.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.boutonConnexion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
@@ -54,23 +55,25 @@ namespace GestionMatériel.Forms
             // usernameBox
             // 
             this.usernameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.usernameBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.usernameBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.usernameBox.Location = new System.Drawing.Point(230, 124);
             this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(159, 29);
+            this.usernameBox.Size = new System.Drawing.Size(159, 22);
             this.usernameBox.TabIndex = 1;
-            this.usernameBox.Text = "opif";
+            this.usernameBox.Text = "username";
             // 
             // passwordBox
             // 
             this.passwordBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.passwordBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.passwordBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.passwordBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.passwordBox.Location = new System.Drawing.Point(230, 184);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
-            this.passwordBox.Size = new System.Drawing.Size(159, 29);
+            this.passwordBox.Size = new System.Drawing.Size(159, 22);
             this.passwordBox.TabIndex = 2;
             this.passwordBox.Text = "password";
             // 

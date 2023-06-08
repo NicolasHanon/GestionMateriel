@@ -56,30 +56,42 @@
             // 
             // TboxMarque
             // 
-            this.TboxMarque.Location = new System.Drawing.Point(79, 28);
+            this.TboxMarque.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxMarque.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxMarque.ForeColor = System.Drawing.SystemColors.Window;
+            this.TboxMarque.Location = new System.Drawing.Point(87, 28);
             this.TboxMarque.Name = "TboxMarque";
-            this.TboxMarque.Size = new System.Drawing.Size(175, 20);
+            this.TboxMarque.Size = new System.Drawing.Size(175, 13);
             this.TboxMarque.TabIndex = 1;
             // 
             // TboxNom
             // 
-            this.TboxNom.Location = new System.Drawing.Point(79, 67);
+            this.TboxNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxNom.ForeColor = System.Drawing.SystemColors.Window;
+            this.TboxNom.Location = new System.Drawing.Point(87, 67);
             this.TboxNom.Name = "TboxNom";
-            this.TboxNom.Size = new System.Drawing.Size(175, 20);
+            this.TboxNom.Size = new System.Drawing.Size(175, 13);
             this.TboxNom.TabIndex = 2;
             // 
             // TboxTaille
             // 
-            this.TboxTaille.Location = new System.Drawing.Point(79, 106);
+            this.TboxTaille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxTaille.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxTaille.ForeColor = System.Drawing.SystemColors.Window;
+            this.TboxTaille.Location = new System.Drawing.Point(87, 106);
             this.TboxTaille.Name = "TboxTaille";
-            this.TboxTaille.Size = new System.Drawing.Size(175, 20);
+            this.TboxTaille.Size = new System.Drawing.Size(175, 13);
             this.TboxTaille.TabIndex = 3;
             // 
             // TboxSaison
             // 
-            this.TboxSaison.Location = new System.Drawing.Point(79, 147);
+            this.TboxSaison.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxSaison.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxSaison.ForeColor = System.Drawing.SystemColors.Window;
+            this.TboxSaison.Location = new System.Drawing.Point(87, 147);
             this.TboxSaison.Name = "TboxSaison";
-            this.TboxSaison.Size = new System.Drawing.Size(175, 20);
+            this.TboxSaison.Size = new System.Drawing.Size(175, 13);
             this.TboxSaison.TabIndex = 4;
             // 
             // label1
@@ -87,7 +99,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(5, 35);
+            this.label1.Location = new System.Drawing.Point(13, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 5;
@@ -98,7 +110,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(26, 70);
+            this.label2.Location = new System.Drawing.Point(34, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 6;
@@ -109,7 +121,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(12, 109);
+            this.label3.Location = new System.Drawing.Point(20, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 7;
@@ -120,7 +132,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(12, 147);
+            this.label4.Location = new System.Drawing.Point(20, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 8;

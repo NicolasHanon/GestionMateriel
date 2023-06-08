@@ -73,6 +73,16 @@ namespace GestionMatériel.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_violet_petit {
+            get {
+                object obj = ResourceManager.GetObject("logo violet petit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rafraichir {
             get {
                 object obj = ResourceManager.GetObject("rafraichir", resourceCulture);

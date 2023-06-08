@@ -37,14 +37,12 @@
             this.POINTURE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
             this.btnAddMono = new System.Windows.Forms.Button();
             this.btnAddCombi = new System.Windows.Forms.Button();
             this.btnVoirPret = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.labelUsername = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelStock = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -102,7 +100,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.btnAddMono);
             this.panel1.Controls.Add(this.btnAddCombi);
             this.panel1.Controls.Add(this.btnVoirPret);
@@ -127,21 +124,6 @@
             this.button1.Text = "Refresh";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnExit.FlatAppearance.BorderSize = 0;
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnExit.Location = new System.Drawing.Point(0, 535);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(186, 42);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Dashboard";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnAddMono
             // 
@@ -190,34 +172,12 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.labelUsername);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(186, 144);
             this.panel2.TabIndex = 2;
-            // 
-            // labelUsername
-            // 
-            this.labelUsername.AutoSize = true;
-            this.labelUsername.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.labelUsername.Location = new System.Drawing.Point(58, 110);
-            this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(67, 16);
-            this.labelUsername.TabIndex = 2;
-            this.labelUsername.Text = "User Name";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GestionMatériel.Properties.Resources._219983;
-            this.pictureBox1.Location = new System.Drawing.Point(51, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // labelStock
             // 
@@ -229,6 +189,16 @@
             this.labelStock.Size = new System.Drawing.Size(263, 42);
             this.labelStock.TabIndex = 2;
             this.labelStock.Text = "Voir Les Stocks";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GestionMatériel.Properties.Resources.logo_violet_petit;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(186, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Accueil
             // 
@@ -245,7 +215,6 @@
             this.Load += new System.EventHandler(this.Accueil_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,8 +228,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnVoirPret;
-        private System.Windows.Forms.Label labelUsername;
-        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnAddMono;
         private System.Windows.Forms.Button btnAddCombi;
         private System.Windows.Forms.Label labelStock;

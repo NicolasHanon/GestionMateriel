@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
             this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PRENOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MAIL = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TELEPHONE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listView1
@@ -46,6 +46,7 @@
             this.PRENOM,
             this.MAIL,
             this.TELEPHONE});
+            this.listView1.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.ForeColor = System.Drawing.SystemColors.Window;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 63);
@@ -54,6 +55,30 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // ID
+            // 
+            this.ID.Text = "ID";
+            // 
+            // NOM
+            // 
+            this.NOM.Text = "NOM";
+            this.NOM.Width = 104;
+            // 
+            // PRENOM
+            // 
+            this.PRENOM.Text = "PRENOM";
+            this.PRENOM.Width = 125;
+            // 
+            // MAIL
+            // 
+            this.MAIL.Text = "MAIL";
+            this.MAIL.Width = 145;
+            // 
+            // TELEPHONE
+            // 
+            this.TELEPHONE.Text = "TELEPHONE";
+            this.TELEPHONE.Width = 171;
             // 
             // label1
             // 
@@ -65,26 +90,6 @@
             this.label1.Size = new System.Drawing.Size(275, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Listes de tout les nageurs ";
-            // 
-            // ID
-            // 
-            this.ID.Text = "ID";
-            // 
-            // NOM
-            // 
-            this.NOM.Text = "NOM";
-            // 
-            // PRENOM
-            // 
-            this.PRENOM.Text = "PRENOM";
-            // 
-            // MAIL
-            // 
-            this.MAIL.Text = "MAIL";
-            // 
-            // TELEPHONE
-            // 
-            this.TELEPHONE.Text = "TELEPHONE";
             // 
             // FormNageur
             // 

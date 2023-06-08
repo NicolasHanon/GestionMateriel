@@ -70,7 +70,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(33, 72);
+            this.label2.Location = new System.Drawing.Point(43, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 5;
@@ -81,7 +81,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(33, 117);
+            this.label3.Location = new System.Drawing.Point(54, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 5;
@@ -92,7 +92,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(33, 159);
+            this.label4.Location = new System.Drawing.Point(49, 152);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 16);
             this.label4.TabIndex = 5;
@@ -100,16 +100,22 @@
             // 
             // TboxIdMat
             // 
+            this.TboxIdMat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxIdMat.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxIdMat.ForeColor = System.Drawing.SystemColors.Window;
             this.TboxIdMat.Location = new System.Drawing.Point(143, 113);
             this.TboxIdMat.Name = "TboxIdMat";
-            this.TboxIdMat.Size = new System.Drawing.Size(225, 20);
+            this.TboxIdMat.Size = new System.Drawing.Size(225, 13);
             this.TboxIdMat.TabIndex = 3;
             // 
             // TboxIdNag
             // 
+            this.TboxIdNag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxIdNag.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxIdNag.ForeColor = System.Drawing.SystemColors.Window;
             this.TboxIdNag.Location = new System.Drawing.Point(143, 155);
             this.TboxIdNag.Name = "TboxIdNag";
-            this.TboxIdNag.Size = new System.Drawing.Size(225, 20);
+            this.TboxIdNag.Size = new System.Drawing.Size(225, 13);
             this.TboxIdNag.TabIndex = 2;
             // 
             // DTdateEmp

@@ -56,23 +56,32 @@
             // 
             // TboxMarqueMono
             // 
+            this.TboxMarqueMono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxMarqueMono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxMarqueMono.ForeColor = System.Drawing.SystemColors.Window;
             this.TboxMarqueMono.Location = new System.Drawing.Point(161, 30);
             this.TboxMarqueMono.Name = "TboxMarqueMono";
-            this.TboxMarqueMono.Size = new System.Drawing.Size(175, 20);
+            this.TboxMarqueMono.Size = new System.Drawing.Size(175, 13);
             this.TboxMarqueMono.TabIndex = 2;
             // 
             // TboxNomMono
             // 
+            this.TboxNomMono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxNomMono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxNomMono.ForeColor = System.Drawing.SystemColors.Window;
             this.TboxNomMono.Location = new System.Drawing.Point(161, 74);
             this.TboxNomMono.Name = "TboxNomMono";
-            this.TboxNomMono.Size = new System.Drawing.Size(175, 20);
+            this.TboxNomMono.Size = new System.Drawing.Size(175, 13);
             this.TboxNomMono.TabIndex = 3;
             // 
             // TboxPointureMono
             // 
+            this.TboxPointureMono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.TboxPointureMono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TboxPointureMono.ForeColor = System.Drawing.SystemColors.Window;
             this.TboxPointureMono.Location = new System.Drawing.Point(160, 160);
             this.TboxPointureMono.Name = "TboxPointureMono";
-            this.TboxPointureMono.Size = new System.Drawing.Size(175, 20);
+            this.TboxPointureMono.Size = new System.Drawing.Size(175, 13);
             this.TboxPointureMono.TabIndex = 5;
             // 
             // label1
@@ -80,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(86, 33);
+            this.label1.Location = new System.Drawing.Point(87, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 6;
@@ -91,7 +100,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(111, 77);
+            this.label2.Location = new System.Drawing.Point(112, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 7;
@@ -102,7 +111,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(4, 121);
+            this.label3.Location = new System.Drawing.Point(5, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 13);
             this.label3.TabIndex = 8;
@@ -113,7 +122,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(75, 163);
+            this.label4.Location = new System.Drawing.Point(76, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 9;
@@ -121,6 +130,8 @@
             // 
             // CboxTypeMono
             // 
+            this.CboxTypeMono.BackColor = System.Drawing.Color.White;
+            this.CboxTypeMono.ForeColor = System.Drawing.SystemColors.MenuText;
             this.CboxTypeMono.FormattingEnabled = true;
             this.CboxTypeMono.Items.AddRange(new object[] {
             "PLATE",
@@ -135,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(520, 218);
+            this.ClientSize = new System.Drawing.Size(520, 205);
             this.Controls.Add(this.CboxTypeMono);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
