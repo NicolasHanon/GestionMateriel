@@ -33,9 +33,10 @@ Sup'Chassagnes - Oullins (69)
   2.4. [Authentification dans l'application (formulaire de connexion)](#24-authentification-dans-lapplication-formulaire-de-connexion)   
   2.5. [Navigation entre les formulaires](#25-navigation-entre-les-formulaires)
 3. [Annexes](#3-annexes)  
-  3.1. [Migrer les données de Access vers MySQL](#31-migrer-les-donn%C3%A9es-de-access-vers-mysql)  
-  3.2. [Modèle conceptuel de données](#32-mod%C3%A8le-conceptuel-de-donn%C3%A9es)  
-  3.3. [Diagramme de classes](#33-diagramme-de-classes)  
+  3.1. [Usercase](#31-Usercase)  
+  3.2. [Modèle conceptuel de données](#32-Modèle-conceptuel-de-données)  
+  3.3. [Diagramme de classes](#33-diagramme-de-classes)
+  3.4. [Diagramme de sequence](#34-diagramme-de-sequence)  
 4. [Remerciements](#4-remerciements)  
 
 ---
@@ -137,7 +138,7 @@ Ces chaînes se trouvent dans la section `connectionStrings` du même fichier `a
 Le(s) responsable(s) du matériel ce connecte a l'application en fournissant l'username et le mot de passe préalablement crée qu'il rentre pour accéder a l'application.
 | Identifiant        | Mot de passe      |
 |--------------------|-------------------|
-| opif               | password          |
+| GestMat            | C1Secret!         |
 
      
 ### 2.5. Navigation entre les formulaires
@@ -165,20 +166,6 @@ L'interface Accueil est composé en deux partie
 
 #### 2.5.3. Formulaire Voir Pret
   
-
-#### 2.5.4. Documentation Utilisateur
-+ 
-+  
-+ 
-+ 
-
-| Ecran de connexion | Affichage de l'ecran d'accueil | Affichage de l'ecran de pret |  
-|---|---|---|
-| ![Connexion](dossier_technique/captures/swissvisite_ecran_connexion.png) | ![Accueil](dossier_technique/captures/swissvisite_rapports.png) | ![Voir pret](dossier_technique/captures/swissvisite_nouveau_rapport.png) |  
-
-
----
-
 ## 3. Annexes  
 ### 3.1. UserCase    
 ![UserCase](dossier_technique/usercase.png) 
@@ -189,10 +176,13 @@ L'interface Accueil est composé en deux partie
 ### 3.3. Diagramme de classes
 ![Diagramme_de_classes](dossier_technique/UML.png) 
 
+### 3.3. Diagramme de sequence
+![Diagramme de sequence](dossier_techniquesequence.png)
+
 ---
 
 ## 4. Remerciements 
-Merci a Alexis qui a été un étudiant qui ma beaucoup apporté que cela soit pour les cours ou meme en dehors des cours, merci a Nicolas qui a été mon premier amis et une personne formidable sur le plan privée et professionnel et pour finir un grand merci a Madame Chataing qui a été une prof formidable grace a ces précieux enseignements et ca méthode de méthodologie aurpair elle est également une prof sur le plan privée extrement gentille.  
+Nous tenons a remercier notre professeur pour ces precieux enseignements.  
 
 Voici les différentes sources que nous avons pu utiliser.     
 + **CodeCraks** Qui ma permit d'apprendre le Flat Design [CodeCraks](https://www.youtube.com/@CodeCraks)
