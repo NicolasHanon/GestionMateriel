@@ -175,10 +175,11 @@ Cet page permet de lister tout les prets.
 #### 2.5.4. Executable
 
 Pour faire l'exécutable il y a quelque petites étapes a respecter, en éffet les voici !
-| Ecran de connexion | Affichage des comptes-rendus de visite | Saisie d'un nouveau compte-rendu de visite |  
+| Appuyer sur generer suivi de publier gestion matériel | Appuyer sur terminer | Appuyer sur setup.exe |  
 |---|---|---|
-| ![Connexion](dossier_technique/executable1.png) | ![Comptes-rendus](dossier_technique/executable2.png) | ![Nouveau compte-rendu](dossier_technique/executable3.png) |  
+| ![generer](dossier_technique/executable1.png) | ![terminer](dossier_technique/executable2.png) | ![setup](dossier_technique/executable3.png) |  
 
+est enfin appuyer sur installer, apres toutes ces etapes nous pourrons accéder a notre application.
 
 ---
 ## 3. Annexes  
@@ -191,8 +192,8 @@ Pour faire l'exécutable il y a quelque petites étapes a respecter, en éffet l
 ### 3.3. Diagramme de classes
 ![Diagramme_de_classes](dossier_technique/UML.png) 
 
-### 3.3. Diagramme de sequence
-![Diagramme de sequence](dossier_techniquesequence/sequence.png)
+### 3.4. Diagramme de sequence
+![Diagramme de sequence](dossier_technique/sequence.png)
 
 ---
 
