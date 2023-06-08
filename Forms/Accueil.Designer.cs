@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.lvMatériel = new System.Windows.Forms.ListView();
+            this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.MARQUE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TAILLE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.SAISON = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TYPEMONO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.POINTURE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.btnAddMono = new System.Windows.Forms.Button();
@@ -38,12 +44,6 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelStock = new System.Windows.Forms.Label();
-            this.MARQUE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.NOM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TAILLE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.SAISON = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TYPEMONO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.POINTURE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,6 +59,7 @@
             this.SAISON,
             this.TYPEMONO,
             this.POINTURE});
+            this.lvMatériel.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvMatériel.ForeColor = System.Drawing.SystemColors.Window;
             this.lvMatériel.HideSelection = false;
             this.lvMatériel.Location = new System.Drawing.Point(220, 110);
@@ -67,6 +68,34 @@
             this.lvMatériel.TabIndex = 0;
             this.lvMatériel.UseCompatibleStateImageBehavior = false;
             this.lvMatériel.View = System.Windows.Forms.View.Details;
+            // 
+            // NOM
+            // 
+            this.NOM.Text = "NOM";
+            this.NOM.Width = 71;
+            // 
+            // MARQUE
+            // 
+            this.MARQUE.Text = "MARQUE";
+            this.MARQUE.Width = 96;
+            // 
+            // TAILLE
+            // 
+            this.TAILLE.Text = "TAILLE";
+            // 
+            // SAISON
+            // 
+            this.SAISON.Text = "SAISON";
+            // 
+            // TYPEMONO
+            // 
+            this.TYPEMONO.Text = "TYPEMONO";
+            this.TYPEMONO.Width = 107;
+            // 
+            // POINTURE
+            // 
+            this.POINTURE.Text = "POINTURE";
+            this.POINTURE.Width = 150;
             // 
             // panel1
             // 
@@ -181,30 +210,6 @@
             this.labelStock.Size = new System.Drawing.Size(263, 42);
             this.labelStock.TabIndex = 2;
             this.labelStock.Text = "Voir Les Stocks";
-            // 
-            // MARQUE
-            // 
-            this.MARQUE.Text = "MARQUE";
-            // 
-            // NOM
-            // 
-            this.NOM.Text = "NOM";
-            // 
-            // TAILLE
-            // 
-            this.TAILLE.Text = "TAILLE";
-            // 
-            // SAISON
-            // 
-            this.SAISON.Text = "SAISON";
-            // 
-            // TYPEMONO
-            // 
-            this.TYPEMONO.Text = "TYPEMONO";
-            // 
-            // POINTURE
-            // 
-            this.POINTURE.Text = "POINTURE";
             // 
             // Accueil
             // 

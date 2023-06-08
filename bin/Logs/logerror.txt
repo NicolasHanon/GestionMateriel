@@ -1213,3 +1213,38 @@ Log Entry : 12:09:58 jeudi 8 juin 2023
   :
   :DAOMatériel : Affichage du matériel
 -------------------------------
+
+Log Entry : 12:29:58 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:29:58 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:43:34 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:43:34 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:43:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : TEST) 
+-------------------------------
+
+Log Entry : 12:44:04 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:44:04 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------

@@ -41,6 +41,9 @@
             // 
             // BTNAddCombi
             // 
+            this.BTNAddCombi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNAddCombi.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.BTNAddCombi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BTNAddCombi.Location = new System.Drawing.Point(270, 57);
             this.BTNAddCombi.Name = "BTNAddCombi";
             this.BTNAddCombi.Size = new System.Drawing.Size(129, 68);
@@ -80,6 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label1.Location = new System.Drawing.Point(46, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
@@ -89,6 +93,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label2.Location = new System.Drawing.Point(46, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
@@ -98,6 +103,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label3.Location = new System.Drawing.Point(43, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
@@ -107,6 +113,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label4.Location = new System.Drawing.Point(46, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 13);
@@ -117,6 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(442, 193);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -127,6 +135,7 @@
             this.Controls.Add(this.TboxNom);
             this.Controls.Add(this.TboxMarque);
             this.Controls.Add(this.BTNAddCombi);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormAddCombi";
             this.Text = "FormAddCombi";
             this.ResumeLayout(false);

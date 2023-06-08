@@ -31,5 +31,10 @@ namespace GestionMatériel.Forms
                 labelAuth.Text = "Mauvais identifiants";
             }
         }
+
+        private void labelAuth_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

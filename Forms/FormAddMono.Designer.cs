@@ -41,6 +41,9 @@
             // 
             // BTNAddMono
             // 
+            this.BTNAddMono.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNAddMono.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.BTNAddMono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.BTNAddMono.Location = new System.Drawing.Point(244, 71);
             this.BTNAddMono.Name = "BTNAddMono";
             this.BTNAddMono.Size = new System.Drawing.Size(129, 68);
@@ -73,6 +76,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label1.Location = new System.Drawing.Point(23, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
@@ -82,6 +86,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label2.Location = new System.Drawing.Point(23, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
@@ -91,6 +96,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label3.Location = new System.Drawing.Point(23, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 13);
@@ -100,6 +106,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label4.Location = new System.Drawing.Point(23, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 13);
@@ -121,6 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(403, 206);
             this.Controls.Add(this.CboxTypeMono);
             this.Controls.Add(this.label4);
@@ -131,6 +139,7 @@
             this.Controls.Add(this.TboxNomMono);
             this.Controls.Add(this.TboxMarqueMono);
             this.Controls.Add(this.BTNAddMono);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormAddMono";
             this.Text = "FormAddMono";
             this.ResumeLayout(false);
