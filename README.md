@@ -171,6 +171,16 @@ Cet page permet de lister tout les prets.
 + Nous pouvons ajouter un pret
 + Nous pouvons voir les nageurs pour voir a quel ID ces derniers appartiennent
 + Un boutton refresh
+
+#### 2.5.4. Executable
+
+Pour faire l'exécutable il y a quelque petites étapes a respecter, en éffet les voici !
+| Ecran de connexion | Affichage des comptes-rendus de visite | Saisie d'un nouveau compte-rendu de visite |  
+|---|---|---|
+| ![Connexion](dossier_technique/executable1.png) | ![Comptes-rendus](dossier_technique/executable2.png) | ![Nouveau compte-rendu](dossier_technique/executable3.png) |  
+
+
+---
 ## 3. Annexes  
 ### 3.1. UserCase    
 ![UserCase](dossier_technique/usercase.png) 
@@ -195,6 +205,3 @@ Voici les différentes sources que nous avons pu utiliser.
   + [Les procédures stockées SQL](https://www.youtube.com/watch?v=Sggdhot-MoM)
 
 + A CHATGPT **[CHATGPT](https://chat.openai.com/)**
-
-  
-
