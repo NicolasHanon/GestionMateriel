@@ -63,3 +63,23 @@ Log Entry : 21:27:54 jeudi 8 juin 2023
   :
   :DAOMatériel : Affichage du matériel
 -------------------------------
+
+Log Entry : 21:43:22 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:43:22 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:45:08 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:46:38 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------

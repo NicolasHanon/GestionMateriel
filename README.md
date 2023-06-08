@@ -156,16 +156,21 @@ L'interface Accueil est composé en deux partie
 
 + Premiere partie
   + une navbar composé de différents élément, le premier est le fait d'afficher l'username de la personne connectés
-  + la seconde utilité de cet navbar est de pouvoir accéder au deuxieme windows forms grace a un button préalablement programmé qui permet de faire cet transition pour le formulaire "Voir pret"
-  + nous avons également deux boutton qui permettent l'ajouts d'un nouveau stocks
+  + la seconde utilité de cet navbar est de pouvoir accéder au deuxieme windows forms *Voir pret* 
+  + nous avons également deux boutton qui permettent l'ajouts d'une combinaison ou d'une monopalme
+  + nous avons également un bouton refresh qui permet de mettre a jour les données
 
 
-+ Second Partie
++ Seconde Partie
   + Un formulaire qui permet l'affichage de stock.
   + Nous pouvons voir que ce tableau est la representation de notre table Stock avec ID, Nom, Marque, Taille, Saison, TypeMono, Pointure.
 
 #### 2.5.3. Formulaire Voir Pret
-  
+Cet page permet de lister tout les prets.
++ La premiere fonctionnalité et de pouvoir recuperer le pret
++ Nous pouvons ajouter un pret
++ Nous pouvons voir les nageurs pour voir a quel ID ces derniers appartiennent
++ Un boutton refresh
 ## 3. Annexes  
 ### 3.1. UserCase    
 ![UserCase](dossier_technique/usercase.png) 
@@ -177,7 +182,7 @@ L'interface Accueil est composé en deux partie
 ![Diagramme_de_classes](dossier_technique/UML.png) 
 
 ### 3.3. Diagramme de sequence
-![Diagramme de sequence](dossier_techniquesequence.png)
+![Diagramme de sequence](dossier_techniquesequence/sequence.png)
 
 ---
 
