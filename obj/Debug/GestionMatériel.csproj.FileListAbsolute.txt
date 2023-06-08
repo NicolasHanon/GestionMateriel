@@ -53,3 +53,7 @@ C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormNageur.re
 C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormPret.resources
 C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormAddPret.resources
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormAddPret.resources
+C:\Users\nicol\Documents\gestionmateriel\bin\Debug\GestionMatériel.exe.manifest
+C:\Users\nicol\Documents\gestionmateriel\bin\Debug\GestionMatériel.application
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.exe.manifest
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.application
