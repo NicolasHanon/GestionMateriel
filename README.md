@@ -53,20 +53,20 @@ du matériel.
 ### 1.2. Technologies et savoir-faire mis en oeuvre
 + Langage orienté objet : C#
   + WINDOWS FORMS
-    + FLAT DESIGN
-  + DATA ACCESS
-  + FORMS
-    + DAO
-      + MAPPAGE 
-    + FONCTION
+    + Flat Design
+  + Data Acess
+  + Forms
+    + Dao
+      + Mappage 
+    + Fonction
   + MODELS
    + Class Mere
    + Class 
 + DONNES 
   + Base de données relationnelles : SSMS
     + Heritage
-    + Liens 1 a * et * a *
-    + Procedure stocké
+    + Liens 1 a * 
+    + Procedure stocké 
     + Vue
     + Certificat
     + Chiffrement des données
@@ -92,8 +92,7 @@ Les logins que nous avons crée qui respectent le CRUD :
 
     USER : yasserbouraghda
     PASSWORD : Lion42500! 
-    
-*Libre à vous de changer le nom d'utilisateur, son mot de passe et le nom d'hôte.  
+      
 Il faudra alors modifier le fichier `app.config` du projet Gestion materiel. Cf. point 2.3.*  
 
 ### 2.3. Configuration de l'application pour la connexion à la base de données
