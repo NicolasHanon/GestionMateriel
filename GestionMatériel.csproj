@@ -77,6 +77,12 @@
     <Compile Include="Forms\FormAddMono.Designer.cs">
       <DependentUpon>FormAddMono.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormAddPret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddPret.Designer.cs">
+      <DependentUpon>FormAddPret.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormNageur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAddMono.resx">
       <DependentUpon>FormAddMono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddPret.resx">
+      <DependentUpon>FormAddPret.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormNageur.resx">
       <DependentUpon>FormNageur.cs</DependentUpon>

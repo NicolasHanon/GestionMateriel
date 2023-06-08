@@ -41,41 +41,43 @@
             // 
             // BTNAddCombi
             // 
+            this.BTNAddCombi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.BTNAddCombi.FlatAppearance.BorderSize = 0;
             this.BTNAddCombi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNAddCombi.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.BTNAddCombi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.BTNAddCombi.Location = new System.Drawing.Point(270, 57);
+            this.BTNAddCombi.Location = new System.Drawing.Point(287, 58);
             this.BTNAddCombi.Name = "BTNAddCombi";
             this.BTNAddCombi.Size = new System.Drawing.Size(129, 68);
             this.BTNAddCombi.TabIndex = 0;
             this.BTNAddCombi.Text = "Ajouter une combinaison";
-            this.BTNAddCombi.UseVisualStyleBackColor = true;
+            this.BTNAddCombi.UseVisualStyleBackColor = false;
             this.BTNAddCombi.Click += new System.EventHandler(this.BTNAddCombi_Click);
             // 
             // TboxMarque
             // 
-            this.TboxMarque.Location = new System.Drawing.Point(46, 31);
+            this.TboxMarque.Location = new System.Drawing.Point(79, 28);
             this.TboxMarque.Name = "TboxMarque";
             this.TboxMarque.Size = new System.Drawing.Size(175, 20);
             this.TboxMarque.TabIndex = 1;
             // 
             // TboxNom
             // 
-            this.TboxNom.Location = new System.Drawing.Point(46, 67);
+            this.TboxNom.Location = new System.Drawing.Point(79, 67);
             this.TboxNom.Name = "TboxNom";
             this.TboxNom.Size = new System.Drawing.Size(175, 20);
             this.TboxNom.TabIndex = 2;
             // 
             // TboxTaille
             // 
-            this.TboxTaille.Location = new System.Drawing.Point(46, 105);
+            this.TboxTaille.Location = new System.Drawing.Point(79, 106);
             this.TboxTaille.Name = "TboxTaille";
             this.TboxTaille.Size = new System.Drawing.Size(175, 20);
             this.TboxTaille.TabIndex = 3;
             // 
             // TboxSaison
             // 
-            this.TboxSaison.Location = new System.Drawing.Point(46, 146);
+            this.TboxSaison.Location = new System.Drawing.Point(79, 147);
             this.TboxSaison.Name = "TboxSaison";
             this.TboxSaison.Size = new System.Drawing.Size(175, 20);
             this.TboxSaison.TabIndex = 4;
@@ -83,42 +85,46 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(46, 13);
+            this.label1.Location = new System.Drawing.Point(5, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "MARQUE";
+            this.label1.Text = "MARQUE :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(46, 54);
+            this.label2.Location = new System.Drawing.Point(26, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "NOM";
+            this.label2.Text = "NOM :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(43, 90);
+            this.label3.Location = new System.Drawing.Point(12, 109);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "TAILLE";
+            this.label3.Text = "TAILLE :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(46, 130);
+            this.label4.Location = new System.Drawing.Point(12, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 13);
+            this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "SAISON";
+            this.label4.Text = "SAISON :";
             // 
             // FormAddCombi
             // 
@@ -135,7 +141,6 @@
             this.Controls.Add(this.TboxNom);
             this.Controls.Add(this.TboxMarque);
             this.Controls.Add(this.BTNAddCombi);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(42, 400);
             this.Name = "FormAddCombi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

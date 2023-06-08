@@ -238,7 +238,6 @@
             this.Controls.Add(this.labelStock);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lvMatériel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Accueil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Accueil";

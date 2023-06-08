@@ -110,7 +110,6 @@ namespace GestionMatériel.Forms
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.usernameBox);
             this.Controls.Add(this.boutonConnexion);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Connexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
