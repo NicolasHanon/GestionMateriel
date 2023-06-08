@@ -38,21 +38,22 @@ namespace GestionMatériel.DataAccess
                             {
                                 CombinaisonMatérielClass materiel = new CombinaisonMatérielClass();
                                 MonopalmeMatérielClass materielmono = new MonopalmeMatérielClass();
-                                materiel.Id = (int)sqlDataReader["Id"];
                                 materiel.Marque = (string)sqlDataReader["Marque"];
                                 materiel.Nom = (string)sqlDataReader["Nom"];
                                 materiel.Taille = sqlDataReader["Taille"] == DBNull.Value ? "" : (string)sqlDataReader["Taille"];
                                 materiel.SaisonCombi = sqlDataReader["SaisonCombi"] == DBNull.Value ? "" : (string)sqlDataReader["SaisonCombi"];
                                 materiels.Add(materiel);
                             }
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOMatériel : Affichage du matériel"), w);
                             }
                         }
                         else
                         {
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat(String.Concat("DAOMatériel : Erreur")), w);
                             }
@@ -63,7 +64,8 @@ namespace GestionMatériel.DataAccess
 
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOMatériel : erreur SQL", w);
                 }
@@ -90,21 +92,22 @@ namespace GestionMatériel.DataAccess
                             while (sqlDataReader.Read())
                             {
                                 MonopalmeMatérielClass materielmono = new MonopalmeMatérielClass(); 
-                                materielmono.Id = (int)sqlDataReader["Id"];
                                 materielmono.Marque = (string)sqlDataReader["Marque"];
                                 materielmono.Nom = (string)sqlDataReader["Nom"];
                                 materielmono.Type = sqlDataReader["TypeMono"] == DBNull.Value ? "" : (string)sqlDataReader["TypeMono"];
                                 materielmono.Pointure = sqlDataReader["Pointure"] == DBNull.Value ? "" : (string)sqlDataReader["Pointure"];
                                 materielsmono.Add(materielmono);
                             }
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOMatériel : Affichage du matériel"), w);
                             }
                         }
                         else
                         {
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat(String.Concat("DAOMatériel : Erreur")), w);
                             }
@@ -115,7 +118,8 @@ namespace GestionMatériel.DataAccess
 
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOMatériel : erreur SQL", w);
                 }

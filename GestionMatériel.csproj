@@ -12,6 +12,22 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,10 +48,23 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>03FFB740C0362045B5A39BDCFFB2EF944BE01EA3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GestionMatériel_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,7 +78,10 @@
   <ItemGroup>
     <Compile Include="DataAccess\Connexion.cs" />
     <Compile Include="DataAccess\DAOAddCombi.cs" />
+    <Compile Include="DataAccess\DAOMonopalme.cs" />
     <Compile Include="DataAccess\DAOMatériel.cs" />
+    <Compile Include="DataAccess\DAONageur.cs" />
+    <Compile Include="DataAccess\DAOPret.cs" />
     <Compile Include="Forms\Accueil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +93,36 @@
     </Compile>
     <Compile Include="Forms\Connexion.Designer.cs">
       <DependentUpon>Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddCombi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddCombi.Designer.cs">
+      <DependentUpon>FormAddCombi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddMono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddMono.Designer.cs">
+      <DependentUpon>FormAddMono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddPret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddPret.Designer.cs">
+      <DependentUpon>FormAddPret.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNageur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNageur.Designer.cs">
+      <DependentUpon>FormNageur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPret.Designer.cs">
+      <DependentUpon>FormPret.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CombinaisonMatérielClass.cs" />
     <Compile Include="Models\MatérielClass.cs" />
@@ -76,6 +138,21 @@
     <EmbeddedResource Include="Forms\Connexion.resx">
       <DependentUpon>Connexion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddCombi.resx">
+      <DependentUpon>FormAddCombi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddMono.resx">
+      <DependentUpon>FormAddMono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddPret.resx">
+      <DependentUpon>FormAddPret.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNageur.resx">
+      <DependentUpon>FormNageur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPret.resx">
+      <DependentUpon>FormPret.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -84,7 +161,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="GestionMatériel_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,6 +176,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\219983.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dossier_technique\logo violet petit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\logerror.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,27 +39,41 @@ namespace GestionMatériel.Forms
             // 
             // boutonConnexion
             // 
-            this.boutonConnexion.Location = new System.Drawing.Point(305, 281);
+            this.boutonConnexion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.boutonConnexion.FlatAppearance.BorderSize = 0;
+            this.boutonConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boutonConnexion.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.boutonConnexion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.boutonConnexion.Location = new System.Drawing.Point(221, 266);
             this.boutonConnexion.Name = "boutonConnexion";
-            this.boutonConnexion.Size = new System.Drawing.Size(159, 23);
+            this.boutonConnexion.Size = new System.Drawing.Size(168, 52);
             this.boutonConnexion.TabIndex = 0;
             this.boutonConnexion.Text = "Connexion";
-            this.boutonConnexion.UseVisualStyleBackColor = true;
+            this.boutonConnexion.UseVisualStyleBackColor = false;
             this.boutonConnexion.Click += new System.EventHandler(this.button1_Click);
             // 
             // usernameBox
             // 
-            this.usernameBox.Location = new System.Drawing.Point(305, 154);
+            this.usernameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.usernameBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usernameBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.usernameBox.Location = new System.Drawing.Point(230, 124);
             this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(159, 20);
+            this.usernameBox.Size = new System.Drawing.Size(159, 22);
             this.usernameBox.TabIndex = 1;
-            this.usernameBox.Text = "opif";
+            this.usernameBox.Text = "username";
             // 
             // passwordBox
             // 
-            this.passwordBox.Location = new System.Drawing.Point(305, 199);
+            this.passwordBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.passwordBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passwordBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.passwordBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.passwordBox.Location = new System.Drawing.Point(230, 184);
             this.passwordBox.Name = "passwordBox";
-            this.passwordBox.Size = new System.Drawing.Size(159, 20);
+            this.passwordBox.PasswordChar = '*';
+            this.passwordBox.Size = new System.Drawing.Size(159, 22);
             this.passwordBox.TabIndex = 2;
             this.passwordBox.Text = "password";
             // 
@@ -80,9 +94,11 @@ namespace GestionMatériel.Forms
             // labelAuth
             // 
             this.labelAuth.AutoSize = true;
-            this.labelAuth.Location = new System.Drawing.Point(342, 95);
+            this.labelAuth.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAuth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.labelAuth.Location = new System.Drawing.Point(216, 61);
             this.labelAuth.Name = "labelAuth";
-            this.labelAuth.Size = new System.Drawing.Size(80, 13);
+            this.labelAuth.Size = new System.Drawing.Size(187, 28);
             this.labelAuth.TabIndex = 3;
             this.labelAuth.Text = "Authentification";
             // 
@@ -90,7 +106,8 @@ namespace GestionMatériel.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.ClientSize = new System.Drawing.Size(652, 408);
             this.Controls.Add(this.labelAuth);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -98,6 +115,7 @@ namespace GestionMatériel.Forms
             this.Controls.Add(this.usernameBox);
             this.Controls.Add(this.boutonConnexion);
             this.Name = "Connexion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

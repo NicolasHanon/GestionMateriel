@@ -44,5 +44,10 @@ namespace GestionMatériel.Models
         {
 
         }
+
+        public string GetNom()
+        {
+            return Nom;
+        }
     }
 }

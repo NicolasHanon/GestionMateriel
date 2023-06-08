@@ -29,13 +29,13 @@ namespace GestionMatériel.Forms
             //On teste que la liste ne soit pas vide. Si elle est vide, c'est qu'il y a eu une erreur...
             if (materiels != null)
             {
-                //On parcourt la liste de ClientModel
+                //On parcourt la liste de CombinaisonMatérielClass
                 foreach (CombinaisonMatérielClass materiel in materiels)
                 {
                     if (materiel.Taille != "")
                     {
-                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
-                        string[] row = { materiel.Id.ToString(), materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
+                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un matériel
+                        string[] row = { materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
                         ListViewItem listViewItem = new ListViewItem(row);
                         //On ajoute la ligne dans la listeview
                         lvMatériel.Items.Add(listViewItem);
@@ -48,12 +48,67 @@ namespace GestionMatériel.Forms
                 {
                     if (materielmono.Type != "")
                     {
-                        string[] row = { materielmono.Id.ToString(), materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
+                        string[] row = { materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
                         ListViewItem listViewItem = new ListViewItem(row);
                         lvMatériel.Items.Add(listViewItem);
                     }
                 }
             }
+        }
+
+        private void btnAddMono_Click(object sender, EventArgs e)
+        {
+            FormAddMono FAddMono = new FormAddMono();
+            FAddMono.Show();
+
+        }
+
+        private void btnAddCombi_Click(object sender, EventArgs e)
+        {
+            FormAddCombi FAddCombi = new FormAddCombi();
+            FAddCombi.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            List<CombinaisonMatérielClass> materiels = DAOMatériel.GetAllStock();
+            List<MonopalmeMatérielClass> materielsmono = DAOMatériel.GetAllStockmono();
+            lvMatériel.Items.Clear();
+            //On teste que la liste ne soit pas vide. Si elle est vide, c'est qu'il y a eu une erreur...
+            if (materiels != null)
+            {
+                //On parcourt la liste de ClientModel
+                foreach (CombinaisonMatérielClass materiel in materiels)
+                {
+                    if (materiel.Taille != "")
+                    {
+                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
+                        string[] row = { materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
+                        ListViewItem listViewItem = new ListViewItem(row);
+                        //On ajoute la ligne dans la listeview
+                        lvMatériel.Items.Add(listViewItem);
+                    }
+                }
+            }
+            if (materielsmono != null)
+            {
+                foreach (MonopalmeMatérielClass materielmono in materielsmono)
+                {
+                    if (materielmono.Type != "")
+                    {
+                        string[] row = { materielmono.Nom, materielmono.Marque, "", "", materielmono.Type, materielmono.Pointure };
+                        ListViewItem listViewItem = new ListViewItem(row);
+                        lvMatériel.Items.Add(listViewItem);
+                    }
+                }
+            }
+        }
+
+        private void btnVoirPret_Click(object sender, EventArgs e)
+        {
+            FormPret formPret = new FormPret();
+            formPret.Show();
         }
     }
 }

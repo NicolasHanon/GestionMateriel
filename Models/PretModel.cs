@@ -1,5 +1,4 @@
-﻿using GestionMatériel.Models.GestionMatériel.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,5 +60,7 @@ namespace GestionMatériel.Models
             Nageur = nageur;
             Matériel = matériel;
         }
+
+        public PretModel() { }
     }
 }
