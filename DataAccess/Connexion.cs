@@ -49,7 +49,8 @@ namespace GestionMatériel.DataAccess
             }
             catch (SqlException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("Connection : erreur de connexion au serveur", w);
                 }

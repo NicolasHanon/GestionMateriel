@@ -44,14 +44,16 @@ namespace GestionMatériel.DataAccess
                                 materiel.SaisonCombi = sqlDataReader["SaisonCombi"] == DBNull.Value ? "" : (string)sqlDataReader["SaisonCombi"];
                                 materiels.Add(materiel);
                             }
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOMatériel : Affichage du matériel"), w);
                             }
                         }
                         else
                         {
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat(String.Concat("DAOMatériel : Erreur")), w);
                             }
@@ -62,7 +64,8 @@ namespace GestionMatériel.DataAccess
 
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOMatériel : erreur SQL", w);
                 }
@@ -95,14 +98,16 @@ namespace GestionMatériel.DataAccess
                                 materielmono.Pointure = sqlDataReader["Pointure"] == DBNull.Value ? "" : (string)sqlDataReader["Pointure"];
                                 materielsmono.Add(materielmono);
                             }
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOMatériel : Affichage du matériel"), w);
                             }
                         }
                         else
                         {
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat(String.Concat("DAOMatériel : Erreur")), w);
                             }
@@ -113,7 +118,8 @@ namespace GestionMatériel.DataAccess
 
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOMatériel : erreur SQL", w);
                 }

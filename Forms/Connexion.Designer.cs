@@ -69,6 +69,7 @@ namespace GestionMatériel.Forms
             this.passwordBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.passwordBox.Location = new System.Drawing.Point(230, 184);
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(159, 29);
             this.passwordBox.TabIndex = 2;
             this.passwordBox.Text = "password";

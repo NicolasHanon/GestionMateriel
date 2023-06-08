@@ -52,7 +52,8 @@ namespace GestionMatériel.DataAccess
                             sqlCommand.Parameters.Add("@pPointure", SqlDbType.VarChar).Value = Pointure;
 
                             sqlCommand.ExecuteNonQuery();
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOAddCombi : Ajout d'une Monopalme (Nom : " + Nom + ") "), w);
                             }
@@ -63,7 +64,8 @@ namespace GestionMatériel.DataAccess
             }
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOMatériel : erreur SQL", w);
                 }

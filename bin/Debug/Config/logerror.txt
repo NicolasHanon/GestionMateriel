@@ -1,0 +1,65 @@
+
+Log Entry : 21:25:34 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:25:34 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:25:37 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:25:45 jeudi 8 juin 2023
+  :
+  :DAOPret : Ajout d'un pret
+-------------------------------
+
+Log Entry : 21:25:47 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:25:49 jeudi 8 juin 2023
+  :
+  :DAOPret : Suppression d'un pret
+-------------------------------
+
+Log Entry : 21:25:50 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:25:53 jeudi 8 juin 2023
+  :
+  :DAOPret : Suppression d'un pret
+-------------------------------
+
+Log Entry : 21:25:53 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:27:21 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:27:21 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:27:45 jeudi 8 juin 2023
+  :
+  :DAOPret : Affichage des prets
+-------------------------------
+
+Log Entry : 21:27:54 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------

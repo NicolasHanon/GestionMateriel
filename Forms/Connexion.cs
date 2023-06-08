@@ -19,7 +19,7 @@ namespace GestionMatériel.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (usernameBox.Text == "opif" && passwordBox.Text == "password")
+            if (usernameBox.Text == "GestMat" && passwordBox.Text == "C1Secret!")
             {
             
                 Accueil accueil = new Accueil();

@@ -110,5 +110,10 @@ namespace GestionMatériel.Forms
             FormPret formPret = new FormPret();
             formPret.Show();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

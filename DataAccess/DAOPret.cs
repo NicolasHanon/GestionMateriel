@@ -47,14 +47,16 @@ namespace GestionMatériel.DataAccess
                                 pret.Matériel = matériel;
                                 prets.Add(pret);
                             }
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat("DAOPret : Affichage des prets"), w);
                             }
                         }
                         else
                         {
-                            using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                            string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                            using (StreamWriter w = File.AppendText(logErrorFilePath))
                             {
                                 Log.WriteLog(String.Concat(String.Concat("DAOPret : Erreur")), w);
                             }
@@ -65,7 +67,8 @@ namespace GestionMatériel.DataAccess
 
             catch (InvalidOperationException)
             {
-                using (StreamWriter w = File.AppendText("../Logs/logerror.txt"))
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
                 {
                     Log.WriteLog("DAOPret : erreur SQL", w);
                 }
@@ -75,6 +78,84 @@ namespace GestionMatériel.DataAccess
                 connection.Close();
             }
             return prets;
+        }
+
+        public static void AddPret(DateTime DateEmprunt, DateTime DateRetour, string ID_1, string ID_2)
+        {
+            SqlConnection connection = null;
+            try
+            {
+                connection = Connection.getInstance().GetConnection();
+                using (SqlCommand sqlCommand = new SqlCommand("LP_AjouterUnPret", connection))
+                {
+                    sqlCommand.CommandType = CommandType.StoredProcedure;
+                    PretModel pret = new PretModel();
+                    pret.DateEmprunt = DateEmprunt;
+                    pret.DateRetour = DateRetour;
+                    NageurModel nageur = new NageurModel();
+                    nageur.Id1 = Convert.ToInt32(ID_1);
+                    pret.Nageur = nageur;
+                    MatérielClass matériel = new MatérielClass();
+                    matériel.Id = Convert.ToInt32(ID_2);
+                    pret.Matériel = matériel;
+                    sqlCommand.Parameters.Add(new SqlParameter("@pDateEmprunt", pret.DateEmprunt));
+                    sqlCommand.Parameters.Add(new SqlParameter("@pDateRetourPret", pret.DateRetour));
+                    sqlCommand.Parameters.Add(new SqlParameter("@pID1", pret.Nageur.Id1));
+                    sqlCommand.Parameters.Add(new SqlParameter("@pID2", pret.Matériel.Id));
+                    sqlCommand.ExecuteNonQuery();
+                    string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                    using (StreamWriter w = File.AppendText(logErrorFilePath))
+                    {
+                        Log.WriteLog(String.Concat("DAOPret : Ajout d'un pret"), w);
+                    }
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
+                {
+                    Log.WriteLog("DAOPret : erreur SQL", w);
+                }
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }  
+        
+        public static void RecupPret(int Id)
+        {
+            SqlConnection connection = null;
+            try
+            {
+                connection = Connection.getInstance().GetConnection();
+                using (SqlCommand sqlCommand = new SqlCommand("LP_RecupMaterielPret", connection))
+                {
+                    sqlCommand.CommandType = CommandType.StoredProcedure;
+                    PretModel pret = new PretModel();
+                    pret.Id = Id;
+                    sqlCommand.Parameters.Add("@pId", SqlDbType.VarChar).Value = Id;
+                    sqlCommand.ExecuteNonQuery();
+                    string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                    using (StreamWriter w = File.AppendText(logErrorFilePath))
+                    {
+                        Log.WriteLog(String.Concat("DAOPret : Suppression d'un pret"), w);
+                    }
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                string logErrorFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "logerror.txt");
+                using (StreamWriter w = File.AppendText(logErrorFilePath))
+                {
+                    Log.WriteLog("DAOPret : erreur SQL", w);
+                }
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }

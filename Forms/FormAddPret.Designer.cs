@@ -28,44 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TboxdateEmp = new System.Windows.Forms.TextBox();
-            this.TboxdateRet = new System.Windows.Forms.TextBox();
-            this.TboxIdNag = new System.Windows.Forms.TextBox();
-            this.TboxIdMat = new System.Windows.Forms.TextBox();
             this.AddPret = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.TboxIdMat = new System.Windows.Forms.TextBox();
+            this.TboxIdNag = new System.Windows.Forms.TextBox();
+            this.DTdateEmp = new System.Windows.Forms.DateTimePicker();
+            this.DTdateRet = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
-            // 
-            // TboxdateEmp
-            // 
-            this.TboxdateEmp.Location = new System.Drawing.Point(143, 32);
-            this.TboxdateEmp.Name = "TboxdateEmp";
-            this.TboxdateEmp.Size = new System.Drawing.Size(225, 20);
-            this.TboxdateEmp.TabIndex = 0;
-            // 
-            // TboxdateRet
-            // 
-            this.TboxdateRet.Location = new System.Drawing.Point(143, 72);
-            this.TboxdateRet.Name = "TboxdateRet";
-            this.TboxdateRet.Size = new System.Drawing.Size(225, 20);
-            this.TboxdateRet.TabIndex = 1;
-            // 
-            // TboxIdNag
-            // 
-            this.TboxIdNag.Location = new System.Drawing.Point(143, 117);
-            this.TboxIdNag.Name = "TboxIdNag";
-            this.TboxIdNag.Size = new System.Drawing.Size(225, 20);
-            this.TboxIdNag.TabIndex = 2;
-            // 
-            // TboxIdMat
-            // 
-            this.TboxIdMat.Location = new System.Drawing.Point(143, 159);
-            this.TboxIdMat.Name = "TboxIdMat";
-            this.TboxIdMat.Size = new System.Drawing.Size(225, 20);
-            this.TboxIdMat.TabIndex = 3;
             // 
             // AddPret
             // 
@@ -126,12 +98,42 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "ID Matériel :";
             // 
+            // TboxIdMat
+            // 
+            this.TboxIdMat.Location = new System.Drawing.Point(143, 113);
+            this.TboxIdMat.Name = "TboxIdMat";
+            this.TboxIdMat.Size = new System.Drawing.Size(225, 20);
+            this.TboxIdMat.TabIndex = 3;
+            // 
+            // TboxIdNag
+            // 
+            this.TboxIdNag.Location = new System.Drawing.Point(143, 155);
+            this.TboxIdNag.Name = "TboxIdNag";
+            this.TboxIdNag.Size = new System.Drawing.Size(225, 20);
+            this.TboxIdNag.TabIndex = 2;
+            // 
+            // DTdateEmp
+            // 
+            this.DTdateEmp.Location = new System.Drawing.Point(143, 32);
+            this.DTdateEmp.Name = "DTdateEmp";
+            this.DTdateEmp.Size = new System.Drawing.Size(225, 20);
+            this.DTdateEmp.TabIndex = 7;
+            // 
+            // DTdateRet
+            // 
+            this.DTdateRet.Location = new System.Drawing.Point(143, 72);
+            this.DTdateRet.Name = "DTdateRet";
+            this.DTdateRet.Size = new System.Drawing.Size(225, 20);
+            this.DTdateRet.TabIndex = 8;
+            // 
             // FormAddPret
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(543, 214);
+            this.Controls.Add(this.DTdateRet);
+            this.Controls.Add(this.DTdateEmp);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -139,8 +141,6 @@
             this.Controls.Add(this.AddPret);
             this.Controls.Add(this.TboxIdMat);
             this.Controls.Add(this.TboxIdNag);
-            this.Controls.Add(this.TboxdateRet);
-            this.Controls.Add(this.TboxdateEmp);
             this.Name = "FormAddPret";
             this.Text = "FormAddPret";
             this.ResumeLayout(false);
@@ -149,15 +149,14 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox TboxdateEmp;
-        private System.Windows.Forms.TextBox TboxdateRet;
-        private System.Windows.Forms.TextBox TboxIdNag;
-        private System.Windows.Forms.TextBox TboxIdMat;
         private System.Windows.Forms.Button AddPret;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox TboxIdMat;
+        private System.Windows.Forms.TextBox TboxIdNag;
+        private System.Windows.Forms.DateTimePicker DTdateEmp;
+        private System.Windows.Forms.DateTimePicker DTdateRet;
     }
 }
