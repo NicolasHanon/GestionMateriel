@@ -32,3 +32,4 @@ C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreComp
 C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\yasse\Videos\gestionmateriel\obj\Debug\GestionMatériel.pdb
 C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormAddCombi.resources
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormAddMono.resources

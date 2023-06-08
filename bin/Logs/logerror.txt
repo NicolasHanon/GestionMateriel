@@ -818,3 +818,398 @@ Log Entry : 19:32:22 mardi 6 juin 2023
   :
   :DAOMatériel : erreur SQL
 -------------------------------
+
+Log Entry : 16:18:14 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:18:14 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:48:41 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:48:41 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:48:53 mercredi 7 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 16:49:02 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:49:02 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 16:49:12 mercredi 7 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 16:49:29 mercredi 7 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 17:42:45 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:42:45 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:44:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:44:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:46:21 mercredi 7 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 17:48:46 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:48:46 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:49:09 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:49:09 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:51:05 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:51:05 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:51:25 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 17:51:25 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:57:40 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:57:40 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:59:03 mercredi 7 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 21:59:10 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 21:59:10 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:10:57 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:10:57 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:11:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:11:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:24:31 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:24:31 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:49:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:49:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Erreur
+-------------------------------
+
+Log Entry : 22:51:20 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:51:20 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:55:13 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:55:14 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:57:04 mercredi 7 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : a) 
+-------------------------------
+
+Log Entry : 22:57:37 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 22:57:37 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 23:05:24 mercredi 7 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : b) 
+-------------------------------
+
+Log Entry : 23:05:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 23:05:35 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 23:33:10 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 23:33:10 mercredi 7 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:23:29 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:23:29 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:24:42 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:44 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:44 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:44 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:48 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:50 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:50 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:50 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:50 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : MONOCMARQUE) 
+-------------------------------
+
+Log Entry : 00:24:59 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:24:59 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:29:50 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:29:50 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:31:31 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:31:31 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:33:54 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une Monopalme (Nom : STPMARCHE) 
+-------------------------------
+
+Log Entry : 00:34:00 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 00:34:00 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:09:17 jeudi 8 juin 2023
+  :
+  :Connection : erreur de connexion au serveur
+-------------------------------
+
+Log Entry : 12:09:17 jeudi 8 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 12:09:17 jeudi 8 juin 2023
+  :
+  :Connection : erreur de connexion au serveur
+-------------------------------
+
+Log Entry : 12:09:17 jeudi 8 juin 2023
+  :
+  :DAOMatériel : erreur SQL
+-------------------------------
+
+Log Entry : 12:09:45 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une combinaison (Nom : a) 
+-------------------------------
+
+Log Entry : 12:09:49 jeudi 8 juin 2023
+  :
+  :DAOAddCombi : Ajout d'une Monopalme (Nom : a) 
+-------------------------------
+
+Log Entry : 12:09:58 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------
+
+Log Entry : 12:09:58 jeudi 8 juin 2023
+  :
+  :DAOMatériel : Affichage du matériel
+-------------------------------

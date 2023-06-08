@@ -58,8 +58,8 @@ namespace GestionMatériel.Forms
 
         private void btnAddMono_Click(object sender, EventArgs e)
         {
-            FormAddCombi FAddCombi = new FormAddCombi();
-            FAddCombi.Show();
+            FormAddMono FAddMono = new FormAddMono();
+            FAddMono.Show();
 
         }
 

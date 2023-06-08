@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="DataAccess\Connexion.cs" />
     <Compile Include="DataAccess\DAOAddCombi.cs" />
+    <Compile Include="DataAccess\DAOMonopalme.cs" />
     <Compile Include="DataAccess\DAOMatériel.cs" />
     <Compile Include="Forms\Accueil.cs">
       <SubType>Form</SubType>
@@ -68,6 +69,12 @@
     <Compile Include="Forms\FormAddCombi.Designer.cs">
       <DependentUpon>FormAddCombi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormAddMono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddMono.Designer.cs">
+      <DependentUpon>FormAddMono.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\CombinaisonMatérielClass.cs" />
     <Compile Include="Models\MatérielClass.cs" />
     <Compile Include="Models\MonopalmeMatérielClass.cs" />
@@ -84,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAddCombi.resx">
       <DependentUpon>FormAddCombi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddMono.resx">
+      <DependentUpon>FormAddMono.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

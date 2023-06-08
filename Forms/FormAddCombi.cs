@@ -23,7 +23,6 @@ namespace GestionMatériel.Forms
 
         private void BTNAddCombi_Click(object sender, EventArgs e)
         {
-            int id = 0;
             string nom = TboxNom.Text;
             string marque = TboxMarque.Text;
             string taille = TboxTaille.Text;
@@ -31,7 +30,7 @@ namespace GestionMatériel.Forms
             
             try
             {
-                DAOAddCombi.AjouterCombinaison(id, nom, marque, taille, saison);
+                DAOAddCombi.AjouterCombinaison(nom, marque, taille, saison);
             }
             catch (Exception ex)
             {
