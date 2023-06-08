@@ -140,7 +140,9 @@
             this.Controls.Add(this.TboxMarqueMono);
             this.Controls.Add(this.BTNAddMono);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(45, 425);
             this.Name = "FormAddMono";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "FormAddMono";
             this.ResumeLayout(false);
             this.PerformLayout();

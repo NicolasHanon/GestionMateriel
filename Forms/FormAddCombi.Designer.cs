@@ -136,7 +136,9 @@
             this.Controls.Add(this.TboxMarque);
             this.Controls.Add(this.BTNAddCombi);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(42, 400);
             this.Name = "FormAddCombi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "FormAddCombi";
             this.ResumeLayout(false);
             this.PerformLayout();
