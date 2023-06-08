@@ -185,6 +185,7 @@
             this.btnVoirPret.TabIndex = 2;
             this.btnVoirPret.Text = "Voir Pret";
             this.btnVoirPret.UseVisualStyleBackColor = true;
+            this.btnVoirPret.Click += new System.EventHandler(this.btnVoirPret_Click);
             // 
             // panel2
             // 

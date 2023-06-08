@@ -29,12 +29,12 @@ namespace GestionMatériel.Forms
             //On teste que la liste ne soit pas vide. Si elle est vide, c'est qu'il y a eu une erreur...
             if (materiels != null)
             {
-                //On parcourt la liste de ClientModel
+                //On parcourt la liste de CombinaisonMatérielClass
                 foreach (CombinaisonMatérielClass materiel in materiels)
                 {
                     if (materiel.Taille != "")
                     {
-                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un client
+                        //On crée un tableau de chaines de caractères : une ligne contient les données d'un matériel
                         string[] row = { materiel.Nom, materiel.Marque, materiel.Taille, materiel.SaisonCombi, "", "" };
                         ListViewItem listViewItem = new ListViewItem(row);
                         //On ajoute la ligne dans la listeview
@@ -103,6 +103,12 @@ namespace GestionMatériel.Forms
                     }
                 }
             }
+        }
+
+        private void btnVoirPret_Click(object sender, EventArgs e)
+        {
+            FormPret formPret = new FormPret();
+            formPret.Show();
         }
     }
 }

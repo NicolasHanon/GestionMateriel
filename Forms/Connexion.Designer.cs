@@ -97,7 +97,6 @@ namespace GestionMatériel.Forms
             this.labelAuth.Size = new System.Drawing.Size(187, 28);
             this.labelAuth.TabIndex = 3;
             this.labelAuth.Text = "Authentification";
-            this.labelAuth.Click += new System.EventHandler(this.labelAuth_Click);
             // 
             // Connexion
             // 
@@ -113,6 +112,7 @@ namespace GestionMatériel.Forms
             this.Controls.Add(this.boutonConnexion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Connexion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

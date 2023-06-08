@@ -47,3 +47,5 @@ C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.csproj.GenerateReso
 C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.csproj.CoreCompileInputs.cache
 C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.exe
 C:\Users\yasse\C#\gestionmateriel\obj\Debug\GestionMatériel.pdb
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormNageur.resources
+C:\Users\nicol\Documents\gestionmateriel\obj\Debug\GestionMatériel.Forms.FormPret.resources

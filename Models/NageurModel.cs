@@ -11,23 +11,24 @@ namespace GestionMatériel.Models
     /// Date de création : 15/03/2022
     /// Modélise un Nageur de LyonPalme.
     /// </summary>
-    namespace GestionMatériel.Models
-    {
         public class NageurModel
         {
             private int Id;
-            private string Nom;
+            public string Nom { get; set; }
             private string Prénom;
             private string Mail;
             private string Téléphone;
-            
+
+            public int Id1 { get => Id; set => Id = value; }
+            public string Nom1 { get => Nom; set => Nom = value; }
+
             /// <summary>
             /// Id du nageur.
             /// </summary>
             /// <returns></returns>
             public int GetId()
             {
-                return Id;
+                return Id1;
             }
             /// <summary>
             /// Modifier l'id du nageur.
@@ -35,7 +36,7 @@ namespace GestionMatériel.Models
             /// <param name="id"></param>
             public void SetId(int id)
             {
-                Id = id;
+                Id1 = id;
             }
 
             /// <summary>
@@ -44,7 +45,7 @@ namespace GestionMatériel.Models
             /// <returns></returns>
             public string GetNom()
             {
-                return Nom;
+                return Nom1;
             }
 
             /// <summary>
@@ -53,7 +54,7 @@ namespace GestionMatériel.Models
             /// <param name="nom"></param>
             public void SetNom(string nom)
             {
-                Nom = nom;
+                Nom1 = nom;
             }
             
             /// <summary>
@@ -120,12 +121,14 @@ namespace GestionMatériel.Models
             /// <param name="téléphone"></param>
             public NageurModel(int id, string nom, string prénom, string mail, string téléphone)
             {
-                Id = id;
-                Nom = nom;
+                Id1 = id;
+                Nom1 = nom;
                 Prénom = prénom;
                 Mail = mail;
                 Téléphone = téléphone;
             }
-        }
+            public NageurModel()
+            {
+            }
     }
 }
